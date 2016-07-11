@@ -1,0 +1,40 @@
+<templateSet group="PlantUML">
+  <template name="type" value="&lt;color:$COLOR$&gt;$TYPE$&lt;/color&gt;" description="Create a new preformatted type" toReformat="false" toShortenFQNames="true">
+    <variable name="COLOR" expression="&quot;purple&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="&quot;int&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="." value=".&lt;color:$COLOR$&gt;$ATTR$&lt;/color&gt;" description="syntax highlighting" toReformat="false" toShortenFQNames="true">
+    <variable name="COLOR" expression="&quot;red&quot;" defaultValue="" alwaysStopAt="false" />
+    <variable name="ATTR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="==" value="&lt;color:$COLOUR$&gt;==&lt;/color&gt;" shortcut="SPACE" description="Operators" toReformat="false" toShortenFQNames="true">
+    <variable name="COLOUR" expression="&quot;darkgreen&quot;" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="!=" value="&lt;color:$COLOUR$&gt;!=&lt;/color&gt;" shortcut="SPACE" description="Operators" toReformat="false" toShortenFQNames="true">
+    <variable name="COLOUR" expression="&quot;darkgreen&quot;" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="or" value="&lt;color:$COLOUR$&gt;or&lt;/color&gt;" shortcut="SPACE" description="Operators" toReformat="false" toShortenFQNames="true">
+    <variable name="COLOUR" expression="&quot;darkgreen&quot;" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="&quot;" value="&quot;&lt;color:green&gt;$STRING$&lt;/color&gt;&quot;" toReformat="false" toShortenFQNames="true">
+    <variable name="STRING" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

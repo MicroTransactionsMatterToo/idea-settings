@@ -1,0 +1,16 @@
+<application>
+  <component name="TextMateSettings">
+    <option name="themesMapping">
+      <map>
+        <entry key="Darcula" value="IR_Black" />
+        <entry key="Default" value="Mac Classic" />
+        <entry key="Github" value="GitHub" />
+        <entry key="Monokai" value="Monokai" />
+        <entry key="T" value="Mac Classic" />
+        <entry key="Twilight" value="Twilight" />
+        <entry key="Vibrant Ink" value="Mac Classic" />
+        <entry key="WarmNeon" value="IR_Black" />
+      </map>
+    </option>
+  </component>
+</application>
