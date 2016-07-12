@@ -3,6 +3,7 @@
     <variable name="COLOR" expression="&quot;purple&quot;" defaultValue="" alwaysStopAt="true" />
     <variable name="TYPE" expression="&quot;int&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="CUCUMBER_FEATURE_FILE" value="true" />
       <option name="OTHER" value="true" />
     </context>
   </template>
@@ -10,30 +11,37 @@
     <variable name="COLOR" expression="&quot;red&quot;" defaultValue="" alwaysStopAt="false" />
     <variable name="ATTR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="CUCUMBER_FEATURE_FILE" value="true" />
       <option name="OTHER" value="true" />
     </context>
   </template>
   <template name="==" value="&lt;color:$COLOUR$&gt;==&lt;/color&gt;" shortcut="SPACE" description="Operators" toReformat="false" toShortenFQNames="true">
     <variable name="COLOUR" expression="&quot;darkgreen&quot;" defaultValue="" alwaysStopAt="false" />
     <context>
+      <option name="CUCUMBER_FEATURE_FILE" value="true" />
       <option name="OTHER" value="true" />
     </context>
   </template>
   <template name="!=" value="&lt;color:$COLOUR$&gt;!=&lt;/color&gt;" shortcut="SPACE" description="Operators" toReformat="false" toShortenFQNames="true">
     <variable name="COLOUR" expression="&quot;darkgreen&quot;" defaultValue="" alwaysStopAt="false" />
     <context>
+      <option name="XML" value="false" />
+      <option name="Python" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="true" />
       <option name="OTHER" value="true" />
     </context>
   </template>
   <template name="or" value="&lt;color:$COLOUR$&gt;or&lt;/color&gt;" shortcut="SPACE" description="Operators" toReformat="false" toShortenFQNames="true">
     <variable name="COLOUR" expression="&quot;darkgreen&quot;" defaultValue="" alwaysStopAt="false" />
     <context>
+      <option name="CUCUMBER_FEATURE_FILE" value="true" />
       <option name="OTHER" value="true" />
     </context>
   </template>
   <template name="&quot;" value="&quot;&lt;color:green&gt;$STRING$&lt;/color&gt;&quot;" toReformat="false" toShortenFQNames="true">
     <variable name="STRING" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="CUCUMBER_FEATURE_FILE" value="true" />
       <option name="OTHER" value="true" />
     </context>
   </template>
