@@ -7,6 +7,7 @@
       <mapping pattern="strings" type="PLAIN_TEXT" />
       <mapping pattern="Class Methods (Should be Implemented in all classes)" type="PLAIN_TEXT" />
       <mapping ext="csv" type="PLAIN_TEXT" />
+      <mapping ext="bf" type="PLAIN_TEXT" />
       <mapping ext="in" type="ReST" />
       <mapping pattern="Planning Diagram" type="UML" />
     </extensionMap>
