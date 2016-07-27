@@ -19,5 +19,10 @@
       <option name="FONT_TYPE" value="2" />
       <option name="ERROR_STRIPE_COLOR" value="a74c0" />
     </pattern>
+    <pattern icon="important" useCustomColors="true" case-sensitive="false" pattern="\breadme\b.*">
+      <option name="FOREGROUND" value="c00008" />
+      <option name="FONT_TYPE" value="3" />
+      <option name="ERROR_STRIPE_COLOR" value="a74c0" />
+    </pattern>
   </component>
 </application>
