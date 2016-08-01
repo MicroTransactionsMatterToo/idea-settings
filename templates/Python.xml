@@ -5,4 +5,21 @@
       <option name="Python" value="true" />
     </context>
   </template>
+  <template name="baseloop" value="$LOOP_NAME$ = asyncio.get_event_loop()" description="Basic asyncio event_loop e.t.c." toReformat="false" toShortenFQNames="true">
+    <variable name="LOOP_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="serverloop" value="$LOOP_NAME$ = asyncio.get_event_loop()&#10;$SERV_ROUTINE$ = asyncio.start_server($SERVER_FUNC$, $IP$, $PORT$)&#10;$SERVER$ = $LOOP_NAME$.run_until_complete($SERV_ROUTINE$)&#10;&#10;try:&#10;    $LOOP_NAME$.run_forever()&#10;except KeyboardInterrupt:&#10;    pass&#10;&#10;$SERVER$.close()&#10;$LOOP_NAME$.run_until_complete($SERVER$.wait_closed())&#10;$LOOP_NAME$.close()" description="asyncio server loop" toReformat="false" toShortenFQNames="true">
+    <variable name="LOOP_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SERV_ROUTINE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SERVER_FUNC" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="IP" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PORT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SERVER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
 </templateSet>
