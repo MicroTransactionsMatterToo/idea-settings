@@ -516,7 +516,12 @@
     <option name="PY.FUNC_DEFINITION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="PY.OPERATION_SIGN">
       <value>
-        <option name="FOREGROUND" value="ffcfcc" />
+        <option name="FOREGROUND" value="68ffd3" />
+      </value>
+    </option>
+    <option name="PY.PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="cdb542" />
       </value>
     </option>
     <option name="SEARCH_RESULT_ATTRIBUTES">
